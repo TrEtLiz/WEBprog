@@ -63,7 +63,7 @@ for ($i = 0; $i < 10; $i++) {
 
 # 4. Примеры использования проекта с приложением скриншотов или фрагментов кода
 
-![Четный день недели](Lab2\Images\Chiotnii.png)
+![Четный день недели](https://github.com/TrEtLiz/WEBprog/blob/main/Lab2/Images/Chotnii.png)
 
 
 
