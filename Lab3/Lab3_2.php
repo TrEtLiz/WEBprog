@@ -6,14 +6,14 @@ $transactions = [
         "transaction_date" => "2023-07-24", // Дата транзакции
         "transaction_amount" => 87.34, // Сумма транзакции
         "transaction_description" => "Shopping", // Описание транзакции
-        "merchant_name" => "MallDova", // Название организации-торговой точки
+        "merchant_name" => "PortMall", // Название организации-торговой точки
     ],
     [
         "transaction_id" => 2,
         "transaction_date" => "2023-12-08",
         "transaction_amount" => 178.27,
-        "transaction_description" => "Spa with friends",
-        "merchant_name" => "Wellness spa",
+        "transaction_description" => "Massage",
+        "merchant_name" => "Aquaterra",
     ],
 ];
 // Функция addTransaction для добавления новых транзакций
@@ -31,8 +31,8 @@ function addTransaction($id, $date, $amount, $description, $merchant, &$transact
 }
 
 // Пример добавления новых транзакций
-addTransaction(3, "2022-09-21", 345.90, "Online shopping", "MakeUp", $transactions);
-addTransaction(4, "2023-11-11", 59.65, "Go grocery store", "№1", $transactions);
+addTransaction(3, "2022-09-21", 345.90, "Online shopping", "MySkin", $transactions);
+addTransaction(4, "2023-11-11", 59.65, "Go grocery store", "Linella", $transactions);
 
 // Вывод массива транзакций после добавления новых
 echo "<pre>";
