@@ -1,6 +1,6 @@
 <?php
 // Задаем путь к папке с изображениями
-$dir = 'D:\Unic\Sem_the_4th\WEBprog\Lab3\Images\lab3_4';
+$dir = 'Images\lab3_4';
 // Сканируем содержимое директории
 // scandir — Получает список файлов и каталогов, расположенных по заданному пути
 $files = scandir($dir);
@@ -23,7 +23,7 @@ if ($files === false) {
 // Проверка наличия файла или директории "." и ".."
             if (($files[$i] != ".") && ($files[$i] != "..")) {
 // Формируем полный путь к изображению
-                $path = $dir . $files[$i];
+                $path = $files[$i]; //$dir .
 // Вывод HTML-кода для каждого изображения
                 ?>
                 <div style='margin: 10px; text-align: center; border: 1px solid grey; border-radius: 5px; overflow: hidden;'>
